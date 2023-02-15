@@ -1,9 +1,9 @@
 import openai as chat
-chat.organization = 'org-1QMU4er8YZ9u4xVIlIIURjFb'
-chat.api_key = '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'
+chat.organization = ''
+chat.api_key = ''
 
 model_engine = "text-davinci-003"
-prompt1 = "What motivated you to choose a career in IT , Cyber Security and the virtual work space?"
+prompt1 = input("Your Question Here: ")
 
 completion = chat.Completion.create(
     engine = model_engine,
